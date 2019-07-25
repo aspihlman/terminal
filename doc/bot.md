@@ -87,7 +87,7 @@ We'll be using tags, primarily, to help us understand what needs attention, what
 #### Auto-Merge pull requests
 - When a pull request has the `AutoMerge` label...
   - If it has been at least 480 minutes and all the statuses pass, merge it in.
-  - Will use Squash merge stratgy
+  - Will use Squash merge strategy
   - Will attempt to delete branch after merge, if possible
   - Will automatically remove the `AutoMerge` label if changes are pushed by someone *without* Write Access.
   - More information on bot-logic that can be controlled with comments is [here](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Advanced-auto-merge)
